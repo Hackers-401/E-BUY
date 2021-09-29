@@ -25,3 +25,9 @@ class AllProductTests(APITestCase):
         url = reverse('orders')
         response = self.client.get(url, format='json')
         self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)      
+     
+    def test_view_users_is_not_Unauthorized(self):
+
+        url = reverse('users')
+        response = self.client.get(url, format='json')
+        self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)     
