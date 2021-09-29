@@ -11,9 +11,6 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
-                
-               
-              
               </div>
             </div>
           </div>
