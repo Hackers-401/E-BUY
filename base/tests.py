@@ -56,3 +56,28 @@ class Test_Create_Product(TestCase):
         self.assertEqual(category , "laptop")
         self.assertEqual(description , "good")
         self.assertEqual(price , "800.00")
+        
+class Test_Create_Order(TestCase):
+
+
+    @classmethod
+    def setUpTestData(cls):
+        
+        testuser1 = User.objects.create(
+            username = "testuser1" , password='123456789'
+        )
+        test_order=Order.objects.create(paymentMethod="paypal" , taxPrice=20 , shippingPrice=600 ,totalPrice=900 )   
+
+    def test_order_content(self):
+        order = Order.order_object.get(_id=1)
+
+        paymentMethod=f'{order.paymentMethod}'
+        taxPrice=f'{order.taxPrice}'
+        shippingPrice=f'{order.shippingPrice}'
+        totalPrice=f'{order.totalPrice}'
+       
+
+        self.assertEqual(paymentMethod , "paypal")
+        self.assertEqual(taxPrice ,"20.00" )
+        self.assertEqual(shippingPrice , "600.00")
+        self.assertEqual(totalPrice , "900.00")
