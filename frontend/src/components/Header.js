@@ -20,11 +20,11 @@ function Header() {
         <header>
             <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
                 <Container>
-                    <LinkContainer to='/homepage'>
-                        <Navbar.Brand>E-Buy</Navbar.Brand>
+                    <LinkContainer style={{font: "icon"}} to='/homepage'>
+                        <Navbar.Brand > E-Buy</Navbar.Brand>
                     </LinkContainer>
-                    <LinkContainer to='/'>
-                        <Navbar.Brand>Services</Navbar.Brand>
+                    <LinkContainer style={{font: "icon"}} to='/'>
+                        <Navbar.Brand >Services</Navbar.Brand>
                     </LinkContainer>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
