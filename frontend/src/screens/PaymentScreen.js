@@ -31,10 +31,10 @@ function PaymentScreen({ history }) {
             <Form onSubmit={submitHandler}>
                 <Form.Group>
                     <Form.Label as='legend'>Select Method</Form.Label>
-                    <Col>
+                    <Col >
                         <Form.Check
                             type='radio'
-                            label='PayPal or Credit Card'
+                            label='/t     PayPal or Credit Card'
                             id='paypal'
                             name='paymentMethod'
                             checked
@@ -45,7 +45,7 @@ function PaymentScreen({ history }) {
                     </Col>
                 </Form.Group>
 
-                <Button type='submit' variant='primary'>
+                <Button type='submit' variant='primary'  style={{"margin-left": "20px"}}>
                     Continue
                 </Button>
             </Form>

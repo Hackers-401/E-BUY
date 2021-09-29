@@ -4,8 +4,11 @@ import Rating from './Rating'
 import { Link } from 'react-router-dom'
 
 function Product({ product }) {
+    const mystyle = {
+        "min-height": "400px",
+    };
     return (
-        <Card className="my-3 p-3 rounded">
+        <Card className="my-3 p-3 rounded" style={mystyle}>
             <Link to={`/product/${product._id}`}>
                 <Card.Img src={product.image} />
             </Link>
