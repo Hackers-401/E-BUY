@@ -6,9 +6,11 @@ function Paginate({ pages, page, keyword = '', isAdmin = false }) {
     if (keyword) {
         keyword = keyword.split('?keyword=')[1].split('&')[0]
     }
-
+    const mystyle = {
+        "margin-left": "500px",
+    };
     return (pages > 1 && (
-        <Pagination>
+        <Pagination style={mystyle}>
             {[...Array(pages).keys()].map((x) => (
                 <LinkContainer
                     key={x + 1}
