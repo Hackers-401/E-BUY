@@ -25,9 +25,11 @@ function SearchBox() {
             ></Form.Control>
 
             <Button
+           
+                style={{font: "icon"}}
                 type='submit'
-                variant='outline-success'
-                className='p-2'
+                variant="info"
+                className='p-2 '
             >
                 Submit
             </Button>
