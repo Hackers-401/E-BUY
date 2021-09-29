@@ -10,7 +10,6 @@ from django.contrib.auth.models import User
 from base.models import *
 
 # Create your tests here.
-
 class AllProductTests(APITestCase):
 
     def test_view_products(self):
@@ -19,12 +18,17 @@ class AllProductTests(APITestCase):
         response = self.client.get(url, format='json')
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 
-        
     def test__is_order_not_Unauthorized(self):
 
         url = reverse('orders')
         response = self.client.get(url, format='json')
-        self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)      
+        self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)  
+
+    def test_view_users_is_not_Unauthorized(self):
+
+        url = reverse('users')
+        response = self.client.get(url, format='json')
+        self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)     
 
 
 class Test_Create_Product(TestCase):
@@ -42,14 +46,12 @@ class Test_Create_Product(TestCase):
         product = Product.productobjects.get(_id=1)
 
         name=f'{product.name}'
-       
         brand=f'{product.brand}'
         category=f'{product.category}'
         description=f'{product.description}'
         price=f'{product.price}'
 
         self.assertEqual(name , "hp2020")
-        
         self.assertEqual(brand , "hp")
         self.assertEqual(category , "laptop")
         self.assertEqual(description , "good")
