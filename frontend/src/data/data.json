@@ -1,21 +1,17 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "E-BUY for laptops",
+    "paragraph": ""
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Because we want your comfort and speed in accomplishing your affairs, we offer you our website, which is based on selling the best types of laptops and the best services in obtaining this product, and we guarantee that all procedures are carried out safely and rights reserved.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "You can see a lot of laptop products in one place",
+      "You can buy a laptop while you are at home, and you do not need to leave the house",
+      "You can know the product details without having to refer to each brand’s website to know the   details of a laptop"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+   
     ]
   },
   "Gallery": [
@@ -67,35 +63,21 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-truck",
+      "name": "Delivering Services",
+      "text": "Loading, transporting, and delivering items to clients in a safe, timely manner. Reviewing orders before and after delivery to ensure that orders are complete, the charges are correct."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Online Shopping",
+      "text": "Shopping cart software is a piece of e-commerce software on a web server that allows visitors to have an Internet site to select items for eventual purchase. The software allows online shopping customers to accumulate a list of items for purchase."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-paypal",
+      "name": "Online Payment",
+      "text": "To avoid the inconvenience of counting money and payment problems, we also provided you with an online payment service."
     }
+   
   ],
   "Testimonials": [
     {
@@ -131,30 +113,40 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "https://avatars.githubusercontent.com/u/80677034?v=4",
+      "name": "khaled al shishani",
+      "job": "Software Developer"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "https://avatars.githubusercontent.com/u/81151287?v=4",
+      "name": "Maram Ankir",
+      "job": "Software Developer"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "https://avatars.githubusercontent.com/u/81154212?v=4",
+      "name": "Yazan Ahmad",
+      "job": "Software Developer"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "https://avatars.githubusercontent.com/u/81154478?v=4",
+      "name": "Yousef Abu-Jalboush",
+      "job": "Software Developer"
+    },
+    {
+      "img": "https://avatars.githubusercontent.com/u/81553101?v=4",
+      "name": "Dina Albarghouthi",
+      "job": "Software Developer"
+    },
+    {
+      "img": "https://avatars.githubusercontent.com/u/81561697?v=4",
+      "name": "Ahmad Abudames",
+      "job": "Software Developer"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": " Amman  ",
+    "phone": "+962 777547889",
+    "email": "hakers@company.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
