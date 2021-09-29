@@ -81,3 +81,28 @@ class Test_Create_Order(TestCase):
         self.assertEqual(taxPrice ,"20.00" )
         self.assertEqual(shippingPrice , "600.00")
         self.assertEqual(totalPrice , "900.00")
+
+
+class Test_Create_Review(TestCase):
+
+
+    @classmethod
+    def setUpTestData(cls):
+        
+        testuser1 = User.objects.create(
+            username = "testuser1" , password='123456789'
+        )
+        test_review=Review.objects.create(name="khaled" , rating=4 , comment="not bad")   
+
+    def test_review_content(self):
+        order = Review.review_objects.get(_id=1)
+
+        name=f'{order.name}'
+        rating=f'{order.rating}'
+        comment=f'{order.comment}'
+       
+       
+
+        self.assertEqual(name , "khaled")
+        self.assertEqual(rating ,"4" )
+        self.assertEqual(comment , "not bad")
